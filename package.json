@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A vehicle rental Api that allows users to reserve/book vehicle/s for a given period of time ",
   "main": "src/index.ts",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "migrate": "prisma migrate dev",
